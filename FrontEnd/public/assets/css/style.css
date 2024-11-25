@@ -1,0 +1,311 @@
+/* font-family: "Mulish", sans-serif; */
+body{
+  background-color: #F7F8FC;
+}
+
+h1 {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  color: #A4A6B3
+}
+
+#sidebarMenu {
+  background-color: #363740;
+  color: #A4A6B3;
+  min-height: 100vh;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  
+}
+
+
+.nav-link {
+  color: #A4A6B3;
+  font-size: 16px;
+  transition: all 0.3s;
+  display: block;
+  font-family: "Mulish", sans-serif;
+  font-weight: 200;
+
+}
+
+#Overview {
+  background-color:#3E4049;
+}
+
+/* Hover on nav */
+  
+.nav-link:hover {
+  color: #DDE2FF;
+  width: 100%;
+}
+
+
+/* main header */
+
+h2 {
+  color: #252733;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  color: #A4A6B3
+
+}
+
+h4 {
+
+  color: #252733;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+
+}
+
+/* user */
+#user {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: end;
+
+}
+
+#user img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user_name {
+  font-size: 14px;
+  font-weight: 600px;
+  font-family: "Mulish", sans-serif;
+  color: #252733;
+}
+
+
+.vertical_divider {
+  border-left: 1px solid #DFE0E8;
+  height: 24px;
+  margin: 0 15px;
+  z-index: 9999;
+  width: 100%;
+}
+
+/* Top cards */
+.card {
+  border-radius: 8px;
+
+}
+
+.card-body {
+  text-align: center;  
+}
+
+/* Hover on overdue */
+
+.card#Overdue:hover {
+border-color: #3751FF;
+
+}
+
+.card#Overdue:hover h4, .card#Overdue:hover p {
+  color: #3751FF;
+  
+}
+
+.card-body p{
+  color: #9FA2B4;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  
+}
+
+/* Chart and Details */
+
+h5 {
+ 
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  font-size: 19px;
+  color: #252733; 
+
+}
+.col-md-4 {
+  padding-left: 0px;
+ 
+}
+.card-text-chart {
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+  color: #9FA2B4;
+}
+
+/* legend */
+.legend {
+  font-weight: 500;
+  color: #9FA2B4; 
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.legend-line {
+  width: 20px;
+  height: 2px; 
+  display: inline-block;
+}
+
+.legend-line.today {
+  background-color: #3751FF; 
+}
+
+.legend-line.yesterday {
+  background-color: #DFE0EB;
+}
+
+.legend-label {
+  font-weight: 500;
+  color: #9FA2B4; 
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+}
+
+h6 {
+
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  color: #9FA2B4;
+}
+
+
+.right_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+
+}
+
+.right_card p {
+
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
+  color: #252733;
+}
+
+.card_divider {
+ border-bottom: 1px solid  #DFE0E8;
+ z-index: 9999;
+ width: 100%;
+
+ }
+
+ /* Unresolved Tickets */
+
+.text-muted , #Group {
+  font-size: 12px;
+  font-family: "Mulish", sans-serif;
+}
+
+.text-muted{
+  font-weight: bold;
+  color: #4B506D;
+}
+
+#Group {
+  font-weight: 400px;
+  color: #9FA2B4;
+}
+
+.list-group span {
+
+  font-size: 11px;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.list-group-item {
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700px;
+  color: #252733;
+}
+
+.list-group-item p {
+  color: #9FA2B4;
+}
+
+/* Task */
+
+#TaskDay {
+  font-size: 11px;
+  font-family: "Mulish", sans-serif;
+  color: #9FA2B4;
+
+
+}
+
+#NewTask {
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600px;
+  color: #C5C7CD;
+
+}
+.form-check-label {
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700px;
+  color: #252733;
+}
+#Default {
+  font-size: 11px;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  color:#9FA2B4;
+  text-transform: uppercase;
+
+}
+
+.badge {
+
+  width: 74px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.text-primary {
+  text-decoration: none;
+}
+
+.Tickets a , #Task a {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600px;
+  font-size: 14px;
+}

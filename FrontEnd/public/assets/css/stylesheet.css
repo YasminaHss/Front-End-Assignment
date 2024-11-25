@@ -1,0 +1,216 @@
+body {
+  background-color: #F7F8FC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Mulish", sans-serif;
+  color: #A4A6B3;
+}
+
+h1 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #252733;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #252733;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 19px;
+  color: #252733;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #9FA2B4;
+}
+
+#sidebarMenu {
+  background-color: #363740;
+  color: #A4A6B3;
+  min-height: 100vh;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+}
+#sidebarMenu .nav-link {
+  color: #A4A6B3;
+  font-size: 16px;
+  transition: all 0.3s;
+  display: block;
+  font-weight: 200;
+}
+#sidebarMenu .nav-link:hover {
+  color: #DDE2FF;
+}
+#sidebarMenu #Overview {
+  background-color: #3E4049;
+}
+
+#user {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-radius: 100%;
+}
+
+#user img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user_name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #252733;
+}
+
+.vertical_divider {
+  border-left: 1px solid #DFE0E8;
+  height: 24px;
+  margin: 0 15px;
+  z-index: 9999;
+  width: 100%;
+}
+
+.card {
+  border-radius: 8px;
+}
+.card .card-body {
+  text-align: center;
+}
+.card .card-body p {
+  color: #9FA2B4;
+  font-size: 19px;
+  font-weight: bold;
+}
+.card.Overdue:hover {
+  border-color: #3751FF;
+}
+.card.Overdue:hover h4, .card.Overdue:hover p {
+  color: #3751FF;
+}
+
+/* Chart and Details */
+.right_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.right_card p {
+  font-weight: bold;
+  font-size: 24px;
+  color: #252733;
+}
+
+.legend {
+  font-weight: 600;
+  color: #9FA2B4;
+  font-size: 12px;
+}
+.legend .legend-item {
+  display: flex;
+  align-items: center;
+}
+.legend .legend-item .legend-line {
+  width: 20px;
+  height: 2px;
+  display: inline-block;
+}
+.legend .legend-item .legend-line.today {
+  background-color: #3751FF;
+}
+.legend .legend-item .legend-line.yesterday {
+  background-color: #DFE0EB;
+}
+.legend .legend-item .legend-label {
+  font-weight: 600;
+  color: #9FA2B4;
+  font-size: 12px;
+}
+
+.card_divider {
+  border-bottom: 1px solid #DFE0E8;
+  z-index: 9999;
+  width: 100%;
+}
+
+.list-group span {
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.list-group .list-group-item {
+  font-size: 14px;
+  font-weight: 700;
+  color: #252733;
+}
+.list-group .list-group-item p {
+  color: #9FA2B4;
+}
+
+#TaskDay {
+  font-size: 11px;
+  color: #9FA2B4;
+}
+
+#NewTask {
+  font-size: 14px;
+  font-weight: 600;
+  color: #C5C7CD;
+}
+
+#Default {
+  font-size: 11px;
+  font-weight: bold;
+  color: #9FA2B4;
+  text-transform: uppercase;
+}
+
+.badge {
+  width: 74px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #F0F1F7;
+}
+
+.form-check-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #252733;
+}
+
+.text-primary {
+  text-decoration: none;
+}
+
+.Tickets a, #Task a {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

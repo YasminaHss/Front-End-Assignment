@@ -1,0 +1,260 @@
+// Variables for colors and fonts
+$primary-color: #3751FF;
+$secondary-color: #A4A6B3;
+$muted-color: #9FA2B4;
+$dark-color: #252733;
+$background-color: #F7F8FC;
+$border-color: #DFE0E8;
+$hover-bg-color: #3E4049;
+$blue-hover-color: #DDE2FF;
+$badge-bg-color: #F0F1F7;
+$font-family: "Mulish", sans-serif;
+
+body {
+  background-color: $background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family;
+  color: $secondary-color;
+}
+
+h1 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: $dark-color;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: $dark-color;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 19px;
+  color: $dark-color;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 16px;
+  color: $muted-color;
+}
+
+// Sidebar Menu
+#sidebarMenu {
+  background-color: #363740;
+  color: $secondary-color;
+  min-height: 100vh;
+  font-family: $font-family;
+  font-weight: bold;
+
+  .nav-link {
+    color: $secondary-color;
+    font-size: 16px;
+    transition: all 0.3s;
+    display: block;
+    font-weight: 200;
+    
+    &:hover {
+      
+      color: $blue-hover-color;
+    }
+  }
+
+  #Overview {
+  background-color: $hover-bg-color;
+}
+
+}
+
+// user 
+#user {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-radius: 100%;
+ 
+}
+
+#user img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user_name {
+  font-size: 14px;
+  font-weight: 600;
+  color: $dark-color;
+}
+
+.vertical_divider {
+  border-left: 1px solid $border-color;
+  height: 24px;
+  margin: 0 15px;
+  z-index: 9999;
+  width: 100%;
+}
+
+// top cards
+.card {
+  border-radius: 8px;
+
+  .card-body {
+    text-align: center;
+
+    p {
+      color: $muted-color;
+      font-size: 19px;
+      font-weight: bold;
+    }
+  }
+
+  // Hover on Overdue 
+  &.Overdue  {
+    &:hover {
+      border-color: $primary-color;
+
+      h4, p {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+/* Chart and Details */ 
+
+.right_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+
+  p {
+    font-weight: bold;
+    font-size: 24px;
+    color: $dark-color;
+  }
+}
+
+
+// legend
+.legend {
+  font-weight: 600;
+  color: $muted-color;
+  font-size: 12px;
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+
+    .legend-line {
+      width: 20px;
+      height: 2px;
+      display: inline-block;
+
+      &.today {
+        background-color: $primary-color;
+      }
+
+      &.yesterday {
+        background-color: #DFE0EB;
+      }
+    }
+
+    .legend-label {
+      font-weight: 600;
+      color: $muted-color;
+      font-size: 12px;
+    }
+  }
+}
+
+.card_divider {
+  border-bottom: 1px solid $border-color;
+  z-index: 9999;
+  width: 100%;
+}
+
+//Unresolved Tickets
+
+.list-group {
+  span {
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .list-group-item {
+    font-size: 14px;
+    font-weight: 700;
+    color: $dark-color;
+
+    p {
+      color: $muted-color;
+    }
+  }
+}
+
+// Task
+#TaskDay {
+  font-size: 11px;
+  color: $muted-color;
+}
+
+#NewTask {
+  font-size: 14px;
+  font-weight: 600;
+  color: #C5C7CD;
+}
+
+#Default {
+  font-size: 11px;
+  font-weight: bold;
+  color: $muted-color;
+  text-transform: uppercase;
+}
+
+
+.badge {
+  width: 74px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: $badge-bg-color;
+}
+
+.form-check-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: $dark-color;
+}
+
+
+.text-primary {
+  text-decoration: none;
+}
+
+.Tickets a, #Task a {
+  font-family: $font-family;
+  font-weight: 600;
+  font-size: 14px;
+}
